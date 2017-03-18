@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HairLoss" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".CrackedHeels" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView2"
+            android:background="#FF00FF"
+            android:gravity="center"
+            android:text="Hair Loss"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="21dp"
+            android:background="#ffffff"
+            android:text="Alopecia is the general medical term for hair loss. There are many types of hair loss with different symptoms and causes. Some of the more common types of hair loss are described below."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:text="Male-pattern baldness is the most common type of hair loss. As well as affecting men, it can sometimes affect women (female-pattern baldness). It can be particularly difficult for both men and women to cope with. Male-pattern baldness follows a pattern of a receding hairline, followed by thinning of the hair on the crown and temples. During female-pattern baldness, hair usually only thins on top of the head. Male- and female-pattern baldness is also called androgenic or androgenetic alopecia. Male-pattern baldness is a condition that runs in families, but it is not clear if this is the case with female-pattern baldness."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="Alopecia areata is patches of baldness that may come and go. It can occur at any age, but mostly affects teenagers and young adults."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginTop="17dp"
+            android:background="#ffffff"
+            android:text="Scarring alopecia, also known as cicatricial alopecia, is hair loss that can occur as a result of complications from another condition. In this type of alopecia, the hair follicle (the small hole in your skin that an individual hair grows out of) is completely destroyed. This means your hair will not grow back."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="Telogen effluvium is a common type of alopecia where there is widespread thinning of the hair, rather than specific bald patches. "
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="14dp"
+            android:background="#ffffff"
+            android:text="(Source: NHS UK)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

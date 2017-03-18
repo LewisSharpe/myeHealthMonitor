@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Advice" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#006600"
+        android:gravity="center"
+        android:text="General Health Advice"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_marginLeft="74dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:src="@drawable/seasonalsproblems" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_marginTop="18dp"
+        android:layout_toLeftOf="@+id/imageButton2"
+        android:src="@drawable/firstaid" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageButton2"
+        android:layout_alignTop="@+id/imageButton3"
+        android:src="@drawable/grannytips" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="11dp"
+        android:background="#ffffff"
+        android:text="Please select a General Health Category below which would be applicable to yourself or a family member or friend."
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/selfcure" />
+
+</RelativeLayout>

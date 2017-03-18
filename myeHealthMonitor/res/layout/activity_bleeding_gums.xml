@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BleedingGums" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".FirstAid" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="41dp"
+            android:background="#006600"
+            android:gravity="center"
+            android:text="Bleeding Gums"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="12dp"
+            android:background="#ffffff"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/textView3"
+            android:background="#ffffff"
+            android:text="Healthy gums should be pink, firm and keep your teeth securely in place. Your gums should not bleed when you touch or brush them. Gum disease is not always painful and you may be unaware you have it. This is why it is important to have regular dental check-ups."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="15dp"
+            android:background="#ffffff"
+            android:text="Early symptoms The initial symptoms of gum disease can include:red and swollen gums and bleeding gums after brushing or flossing your teeth. This stage of gum disease is called gingivitis. "
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="If gingivitis is untreated, the tissues and bone that support the teeth can also become affected. This is known as periodontitis."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="16dp"
+            android:background="#ffffff"
+            android:text="In rare cases, a condition called acute necrotising ulcerative gingivitis (ANUG) can develop suddenly. The symptoms of ANUG are usually more severe than those of gum disease and can include:"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginTop="34dp"
+            android:background="#ffffff"
+            android:text="(Source: www.rayur.com)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

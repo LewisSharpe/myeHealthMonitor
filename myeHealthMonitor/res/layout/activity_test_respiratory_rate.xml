@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Test Respiratory Rate"
+        tools:context=".TestRespiratoryRate" />
+
+    <Button
+        android:id="@+id/buttonRecordStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="48dp"
+        android:onClick="onClickRecordStart"
+        android:text="Record Start" 
+         android:textColor="#FFFFFF"
+                 android:background="#B84A00"/>
+
+    <Button
+        android:id="@+id/buttonRecordStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/buttonRecordStart"
+        android:layout_alignBottom="@id/buttonRecordStart"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/buttonRecordStart"
+        android:onClick="onClickRecordStop"
+        android:text="Record Stop" 
+         android:textColor="#FFFFFF"
+                 android:background="#B84A00"/>
+
+    <Button
+        android:id="@+id/buttonPlayback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRecordStart"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClickPlayback"
+        android:text="Playback"
+                android:background="#B84A00"
+         android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#B84A00"
+        android:gravity="center"
+        android:text="Respiratory Rate"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

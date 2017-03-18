@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Gastritis" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="14dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Gatritis"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:background="#ffffff"
+        android:text="1) It&apos;s important to drink plenty of fluids to avoid dehydration, so you should try to make sure you have small and frequent sips of water. Fruit juice and soup can also help avoid dehydration in adults with gastroenteritis. If you are more vulnerable to the effects of dehydration – for example, if you are elderly or have an underlying health condition – oral rehydration solutions may be recommended in addition to drinking plenty of fluids. These solutions usually come in sachets and are available without a prescription from your local pharmacist. You dissolve them in water to make a drink that helps replace salt, glucose and other important minerals that your body loses if you are dehydrated."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="21dp"
+        android:background="#ffffff"
+        android:text="3) Anti-emetic medications, such as metoclopramide, are sometimes used to help prevent or reduce vomiting."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:text="4) Antibiotics are not usually recommended for treating gastroenteritis because many cases are caused by viruses rather than bacteria. Even when bacteria is responsible, antibiotics have often been found to be no more effective than simply waiting for the symptoms to pass."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#ffffff"
+        android:text="Treatments:"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:text="2) Medication: If your symptoms are particularly severe, your GP may recommend some of the medications such as lopermide etc."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView04"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:text="(Source: NHS UK)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

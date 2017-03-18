@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LC1" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".LC" >
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/TextView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ImageView05"
+            android:background="#B84A00"
+            android:gravity="center"
+            android:text="Liver Check"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ImageView05"
+            android:layout_below="@+id/TextView15"
+            android:layout_marginLeft="69dp"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/radioButton1"
+            android:layout_alignBottom="@+id/radioButton1"
+            android:layout_marginLeft="35dp"
+            android:layout_toRightOf="@+id/radioButton1"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioButton1"
+            android:background="#ffffff"
+            android:text="Q8 Do you experience headaches after eating?"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/radioButton1"
+            android:layout_below="@+id/TextView01"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton02"
+            android:layout_alignBottom="@+id/RadioButton02"
+            android:layout_alignLeft="@+id/radioButton2"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton02"
+            android:background="#ffffff"
+            android:text="Q9 Do you experience sharp pain under the right side of your rib cage?"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RadioButton02"
+            android:layout_below="@+id/TextView02"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton04"
+            android:layout_alignBottom="@+id/RadioButton04"
+            android:layout_alignLeft="@+id/RadioButton01"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton04"
+            android:background="#ffffff"
+            android:text="Q10 Are you prone to acne or blemishes?"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_toLeftOf="@+id/radioButton2"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RadioButton03"
+            android:layout_below="@+id/TextView03"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <RadioButton
+            android:id="@+id/RadioButton08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RadioButton06"
+            android:layout_below="@+id/TextView04"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton08"
+            android:layout_alignBottom="@+id/RadioButton08"
+            android:layout_alignLeft="@+id/RadioButton05"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton06"
+            android:background="#ffffff"
+            android:text="Q11 Do you have dry hair or skin?"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton08"
+            android:background="#ffffff"
+            android:text="Q12 Is your waist circumference more than 34.5inches if female or if male 40 inches?"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView05"
+            android:layout_toLeftOf="@+id/radioButton2"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton10"
+            android:layout_alignBottom="@+id/RadioButton10"
+            android:layout_alignLeft="@+id/RadioButton07"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#B84A00"
+            android:text="Next"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/TextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView14"
+            android:background="#ffffff"
+            android:text="Q7 Do you have light-coloured or foul-smelling stool or both?"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/radioButton2"
+            android:background="#ffffff"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/RadioButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RadioButton09"
+            android:layout_alignParentBottom="true"
+            android:background="#ffffff"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton10"
+            android:background="#ffffff"
+            android:text="Q13 Often experience anger outbursts?"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

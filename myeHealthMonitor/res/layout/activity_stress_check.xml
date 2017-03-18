@@ -1,0 +1,250 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".StressCheck" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:background="#00FF00"
+        android:text="Worried" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Untroubled" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Calm" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView04"
+        android:layout_alignBottom="@+id/TextView04"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Relaxed" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView05"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView06"
+        android:layout_alignBottom="@+id/TextView06"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Worried" />
+
+    <SeekBar
+        android:id="@+id/seekBar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView06"
+        android:background="#ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView08"
+        android:layout_alignBottom="@+id/TextView08"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Focused" />
+
+    <TextView
+        android:id="@+id/TextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView10"
+        android:layout_alignBottom="@+id/TextView10"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Cheerful" />
+
+    <TextView
+        android:id="@+id/TextView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView12"
+        android:layout_alignBottom="@+id/TextView12"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Safe" />
+
+    <TextView
+        android:id="@+id/TextView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView14"
+        android:layout_alignBottom="@+id/TextView14"
+        android:layout_alignParentRight="true"
+        android:background="#00FF00"
+        android:text="Fearless" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:background="#ffffff" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar1"
+        android:background="#00FF00"
+        android:text="Pressured" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar2"
+        android:background="#00FF00"
+        android:text="Tense" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar3"
+        android:background="#00FF00"
+        android:text="Sleepless" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/seekBar4"
+        android:background="#00FF00"
+        android:text="Distracted" />
+
+    <TextView
+        android:id="@+id/TextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_below="@+id/SeekBar01"
+        android:background="#00FF00"
+        android:text="Irritable" />
+
+    <TextView
+        android:id="@+id/TextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView10"
+        android:layout_below="@+id/SeekBar02"
+        android:background="#00FF00"
+        android:text="Unsafe" />
+
+    <TextView
+        android:id="@+id/TextView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/TextView12"
+        android:layout_below="@+id/SeekBar03"
+        android:background="#00FF00"
+        android:text="Fearful" />
+
+    <SeekBar
+        android:id="@+id/SeekBar03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView13"
+        android:background="#ffffff" />
+
+    <SeekBar
+        android:id="@+id/SeekBar02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView11"
+        android:background="#ffffff" />
+
+    <SeekBar
+        android:id="@+id/SeekBar04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView15"
+        android:background="#ffffff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_toRightOf="@+id/TextView08"
+        android:background="#00FF00"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:background="#00FF00"
+        android:text="Reset" />
+
+    <SeekBar
+        android:id="@+id/SeekBar01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView09"
+        android:background="#ffffff" />
+
+</RelativeLayout>

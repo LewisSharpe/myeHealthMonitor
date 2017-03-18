@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalBites" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".FirstAid" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="41dp"
+            android:background="#006600"
+            android:gravity="center"
+            android:text="Animal Bites"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="12dp"
+            android:background="#ffffff"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/textView3"
+            android:background="#ffffff"
+            android:text="If you&apos;ve been bitten by an animal or human, clean the wound immediately. Remove anything from the bite, such as teeth, and clean the wound thoroughly by running warm tap water over it for a couple of minutes. Encourage the wound to bleed by gently squeezing it, unless it&apos;s already bleeding freely. If the bite is painful, you can take painkillers, such as paracetamol or ibuprofen. Children under 16 years of age shouldn&apos;t take aspirin. If the animal bite is very severe, it&apos;s possible that a body part, such as a finger or ear, may have been bitten off. If this is the case, wash the body part with tap water and place it in a plastic bag or sealed container. Put the container into a tub of iced water (but not frozen) to keep it cool, so that it can be transported to hospital. It may be possible to re-attach the body part using reconstructive surgery."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="30dp"
+            android:background="#ffffff"
+            android:text="Severe bites that need medical treatment will be cleaned, with any damaged or dead tissue removed (known as debridement). If there&apos;s a risk of infection, the wound will be left open, as this makes it easier to keep it clean. If the risk of infection is believed to be low, the wound can be stitched up. Wounds that bleed excessively will be closed to prevent blood loss, despite the risk of infection."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="19dp"
+            android:background="#ffffff"
+            android:text="(Source: NHS UK)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dandruff" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".CrackedHeels" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView2"
+            android:background="#FF00FF"
+            android:gravity="center"
+            android:text="Dandruff"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:background="#ffffff"
+            android:text="There are two types of dandruff:"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="21dp"
+            android:background="#ffffff"
+            android:text="Dry dandruff appear on normal or dry scalps. They spontaneously detach and fall clothing. Dry dandruff result from a chronic lack of sebum."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="Oily dandruff occur on oily scalps to: they reveal an excess of sebum. They congregate in patches on the skin, cause irritation and itching, and promote the formation of bacteria."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="24dp"
+            android:background="#ffffff"
+            android:text="Natural remedies for Dandruff: Vitamin A (Eggs, dairy products, liver, butter)."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="40dp"
+            android:background="#ffffff"
+            android:text="Natural remedies for Dandruff: Vitamin B6 (Liver, salmon, potatoes, bananas, mushrooms, whole grains)"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="17dp"
+            android:background="#ffffff"
+            android:text="(Source: www.rayur.com)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

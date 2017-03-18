@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cold" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".CrackedHeels" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView2"
+            android:background="#FF00FF"
+            android:gravity="center"
+            android:text="Common Cold"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="25dp"
+            android:background="#ffffff"
+            android:text="In the UK, over-the-counter cold medicines are probably the most widely used type of medication. These include:"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="16dp"
+            android:background="#ffffff"
+            android:text="Painkillerssuch as ibuprofen, paracetamol and aspirin – which are the only type of medication known to be effective in treating colds. Children under 16 years old or breastfeeding women should not take aspirin."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="#ffffff"
+            android:text="Decongestants (medications designed to reduce nasal congestion) – may have limited effectiveness against colds. However, don&apos;t use them for more than seven days because overuse can make the symptoms of congestion worse. Children under six years old should not use decongestants."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="24dp"
+            android:background="#ffffff"
+            android:text="Most over-the-counter cold medications aren&apos;t suitable for children under six years old. If your child is unwell, talk to your pharmacist about the best option."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="21dp"
+            android:background="#ffffff"
+            android:text="Care advice: Drink plenty of fluids to replace those lost due to sweating and a runny nose. Get plenty of rest – there&apos;s no official guidance as to how long a person should stay off work or school. Most people know when they&apos;re fit enough to return to normal activities.  Eat healthily: a low-fat, high-fibre diet is recommended, including plenty of fresh fruit and vegetables (five portions a day)."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="(Source: NHS UK)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".HeatStroke" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".FirstAid" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="41dp"
+            android:background="#006600"
+            android:gravity="center"
+            android:text="Heatstroke"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="12dp"
+            android:background="#ffffff"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/textView3"
+            android:background="#ffffff"
+            android:text="If you suspect someone has heat exhaustion, follow the advice outlined below."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="Get them to rest in a cool place – ideally a room with air conditioning or, if this is not possible, somewhere in the shade."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView05"
+            android:layout_marginTop="22dp"
+            android:background="#ffffff"
+            android:text="Use cool water (not cold) on their skin – if available, use a cool shower or bath to cool them down, otherwise apply a cool, wet flannel or facecloth to their skin."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="39dp"
+            android:background="#ffffff"
+            android:text="(Source: NHS UK)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView07"
+            android:background="#ffffff"
+            android:text="Avoid alcohol or caffeine because they can increase levels of dehydration."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:background="#ffffff"
+            android:text="Get them to drink fluids – this should be water or a rehydration drink, such as a sports drink; they should stop taking fluid on board once their symptoms have significantly decreased (usually within 2-3 hours)."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/TextView03"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:text="Avoid alcohol or caffeine because they can increase levels of dehydration."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/TextView06"
+            android:layout_alignBottom="@+id/TextView06"
+            android:layout_alignParentLeft="true"
+            android:background="#ffffff"
+            android:text="Loosen clothing and ensure the person gets plenty of ventilation."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="22dp"
+            android:background="#ffffff"
+            android:text="Dial 999 to request an ambulance if the person doesn&apos;t respond to the above treatment within 30 minutes."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Acidity" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Acidity"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="19dp"
+        android:background="#ffffff"
+        android:text="Causes: The foods that you eat can increase stomach acidity levels if the food is difficult to digest or highly acidic in content. Spicy foods and fried foods can also contribute to excess stomach acid buildup. Smoking can cause buildup of stomach acids and raise the acidic content of the stomach. This can result in heartburn and other stomach problems. Alcohol consumption can also increase the acidic content of the stomach and lead to stomach acidity issues and symptoms."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:text="Treatment: Always consume meals on a regular basis and try to eat a balance of healthy food items instead of junk food or foods with high sugar and salt contents. Foods that are high in fiber can help to regulate the digestive system and may decrease stomach acidity levels. A glass of cold milk may help to absorb the excess acid and reduce the symptoms of increased acidity levels. If you commonly have heartburn, you may want to ask your doctor which is the right antacid for you. Take one or two antacid tablets or a teaspoon of antacid liquid medication after a large meal or a spicy meal to help prevent the buildup of acidity. Antacid medication comes in flavored chewable tablets that have a chalky consistency. The active ingredients in over the counter antacid medications can help to reduce the occurrence of excess stomach acid. Chew mint to soothe the acidic content of the stomach and help promote effective digestion and decreased symptoms associated with acid buildup. Exercise is important for maintaining overall body health and will contribute to easing symptoms of indigestion that lead to acidity."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="17dp"
+        android:background="#ffffff"
+        android:text="(Source: www.rayur.com)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

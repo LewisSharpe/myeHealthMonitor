@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".RateApp" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="13dp"
+        android:background="#005daa"
+        android:gravity="center"
+        android:text="Rate App"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_below="@+id/ratingBar1"
+        android:layout_marginTop="59dp"
+        android:background="#005daa"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="15dp"
+        android:background="#ffffff"
+        android:text="It would be appreciated if you could enter a rating for this mobile application and a optional comment below."
+        android:textStyle="italic" />
+
+    <RatingBar
+        android:id="@+id/ratingBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:background="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ratingBar1"
+        android:layout_alignRight="@+id/ratingBar1"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="32dp"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="26dp" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

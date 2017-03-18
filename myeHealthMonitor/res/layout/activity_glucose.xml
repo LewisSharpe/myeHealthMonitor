@@ -1,0 +1,174 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Glucose" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#B84A00"
+        android:gravity="center"
+        android:text="Glucose"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="12dp"
+        android:background="#ffffff"
+        android:text="Date and Time of Glucose Measurement:"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/TextView02"
+        android:background="#ffffff"
+        android:text="Time"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_marginLeft="57dp"
+        android:background="#ffffff"
+        android:text="Date"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView03"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="83dp"
+        android:background="#ffffff"
+        android:text="Glucose:"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView04"
+        android:layout_below="@+id/EditText01"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:text="Note:"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/EditText02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView05"
+        android:layout_alignBottom="@+id/TextView05"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView3"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="26dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/EditText02"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="49dp"
+        android:background="#B84A00"
+        android:onClick="onClickCalculateO2"
+        android:text="Save"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_marginRight="26dp"
+        android:background="#B84A00"
+        android:onClick="onClickCalculateO2"
+        android:text="Clear"
+        android:textSize="26dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_toRightOf="@+id/Button01" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="21dp"
+        android:layout_toRightOf="@+id/textView3"
+        android:background="#ffffff"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="26dp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/EditText01"
+        android:layout_alignBottom="@+id/EditText01"
+        android:layout_alignParentLeft="true"
+        android:background="#ffffff"
+        android:text="HbA1c:"
+        android:textStyle="italic" />
+
+</RelativeLayout>

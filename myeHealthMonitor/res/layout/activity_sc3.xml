@@ -1,0 +1,369 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SC3" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".LC" >
+
+        <TextView
+            android:id="@+id/TextView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ImageView04"
+            android:background="#005daa"
+            android:gravity="center"
+            android:text="Mood Check"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/RadioButton32"
+            android:background="#ffffff"
+            android:text="Q17 I experience stress in relationships with friends or family."
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView09"
+            android:background="#ffffff"
+            android:text="Always"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView08"
+            android:layout_toRightOf="@+id/RadioButton32"
+            android:background="#ffffff"
+            android:text="Freq"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView08"
+            android:layout_toRightOf="@+id/RadioButton30"
+            android:background="#ffffff"
+            android:text="Sometimes"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView08"
+            android:layout_toRightOf="@+id/RadioButton39"
+            android:background="#ffffff"
+            android:text="Rarely"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView08"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/RadioButton36"
+            android:background="#ffffff"
+            android:text="Never"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView08"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView08"
+            android:layout_toLeftOf="@+id/RadioButton39"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton41"
+            android:layout_alignBottom="@+id/RadioButton41"
+            android:layout_alignLeft="@+id/RadioButton61"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/TextView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton37"
+            android:background="#ffffff"
+            android:text="Q18 I make time to connect with my loved ones."
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton49"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView16"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/TextView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton49"
+            android:background="#ffffff"
+            android:text="Q19 I  become very irritable if things don&apos;t turn out right."
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView17"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/TextView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/RadioButton50"
+            android:background="#ffffff"
+            android:text="Q20 I worry about my financial situation."
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/RadioButton52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView17"
+            android:layout_toLeftOf="@+id/RadioButton38"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView17"
+            android:layout_toRightOf="@+id/RadioButton50"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView16"
+            android:layout_toLeftOf="@+id/RadioButton41"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView18"
+            android:layout_toLeftOf="@+id/RadioButton41"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView16"
+            android:layout_toRightOf="@+id/RadioButton55"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView18"
+            android:layout_toRightOf="@+id/RadioButton56"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView18"
+            android:layout_toLeftOf="@+id/RadioButton31"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView16"
+            android:layout_toRightOf="@+id/RadioButton58"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/RadioButton61"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/TextView17"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton60"
+            android:layout_alignBottom="@+id/RadioButton60"
+            android:layout_alignLeft="@+id/RadioButton62"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView16"
+            android:layout_toRightOf="@+id/RadioButton40"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView16"
+            android:layout_toRightOf="@+id/RadioButton38"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView18"
+            android:layout_toLeftOf="@+id/RadioButton53"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton60"
+            android:layout_alignBottom="@+id/RadioButton60"
+            android:layout_toRightOf="@+id/RadioButton52"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView18"
+            android:layout_toRightOf="@+id/RadioButton32"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <ImageView
+            android:id="@+id/ImageView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#005daa"
+            android:text="Submit"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@+id/RadioButton39"
+            android:layout_below="@+id/RadioButton51"
+            android:background="#ffffff"
+            android:text="Thanks for your response to the liver check questionnaire, this will help your GP determine whether to bring you in for further examination."
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView09"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView10"
+            android:background="#ffffff"
+            android:text="Q16 I make time to exercise, relax and engage in enjoyable activities."
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

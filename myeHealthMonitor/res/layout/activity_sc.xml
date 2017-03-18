@@ -1,0 +1,1026 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SC" >
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".LC" >
+
+        <ImageView
+            android:id="@+id/ImageView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/TextView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/ImageView05"
+            android:background="#005daa"
+            android:gravity="center"
+            android:text="Mood Check"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/TextView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView14"
+            android:layout_marginTop="12dp"
+            android:background="#ffffff"
+            android:text="Q1 Have you been treated foor jaundice or hepatitis"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#005daa"
+            android:text="Next"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/radioButton1"
+            android:background="#ffffff"
+            android:text="Q1 Have you been treated foor jaundice or hepatitis"
+            android:textStyle="italic" />
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView15"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView01"
+            android:layout_toRightOf="@+id/radioButton1"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView01"
+            android:layout_toRightOf="@+id/radioButton2"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView01"
+            android:layout_toRightOf="@+id/RadioButton15"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/TextView01"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/RadioButton16"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:background="#ffffff"
+            android:text="S Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_toLeftOf="@+id/RadioButton15"
+            android:background="#ffffff"
+            android:text="Agree"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton06"
+            android:layout_alignBottom="@+id/RadioButton06"
+            android:layout_toLeftOf="@+id/RadioButton16"
+            android:background="#ffffff"
+            android:text="Net"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_toLeftOf="@+id/RadioButton17"
+            android:background="#ffffff"
+            android:text="Dis"
+            android:textSize="10dp" />
+
+        <RadioButton
+            android:id="@+id/RadioButton02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/RadioButton04"
+            android:layout_alignBottom="@+id/RadioButton04"
+            android:layout_alignLeft="@+id/RadioButton17"
+            android:layout_alignParentRight="true"
+            android:background="#ffffff"
+            android:text="S Dis"
+            android:textSize="10dp" />
+
+        <RelativeLayout
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/background"
+            tools:context=".LC" >
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ImageView01"
+                android:background="#005daa"
+                android:gravity="center"
+                android:text="Mood Check"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView02"
+                android:layout_marginTop="12dp"
+                android:background="#ffffff"
+                android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/Button01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="#005daa"
+                android:text="Next"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/RadioButton18"
+                android:background="#ffffff"
+                android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                android:textStyle="italic" />
+
+            <RadioButton
+                android:id="@+id/RadioButton18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView03"
+                android:background="#ffffff"
+                android:text="S Agree"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView04"
+                android:layout_toRightOf="@+id/RadioButton18"
+                android:background="#ffffff"
+                android:text="Agree"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView04"
+                android:layout_toRightOf="@+id/RadioButton14"
+                android:background="#ffffff"
+                android:text="Net"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView04"
+                android:layout_toRightOf="@+id/RadioButton09"
+                android:background="#ffffff"
+                android:text="Dis"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/TextView04"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/RadioButton07"
+                android:background="#ffffff"
+                android:text="S Dis"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/TextView04"
+                android:background="#ffffff"
+                android:text="S Agree"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView04"
+                android:layout_toLeftOf="@+id/RadioButton09"
+                android:background="#ffffff"
+                android:text="Agree"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/RadioButton12"
+                android:layout_alignBottom="@+id/RadioButton12"
+                android:layout_toLeftOf="@+id/RadioButton07"
+                android:background="#ffffff"
+                android:text="Net"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TextView04"
+                android:layout_toLeftOf="@+id/RadioButton01"
+                android:background="#ffffff"
+                android:text="Dis"
+                android:textSize="10dp" />
+
+            <RadioButton
+                android:id="@+id/RadioButton13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/RadioButton11"
+                android:layout_alignBottom="@+id/RadioButton11"
+                android:layout_alignLeft="@+id/RadioButton01"
+                android:layout_alignParentRight="true"
+                android:background="#ffffff"
+                android:text="S Dis"
+                android:textSize="10dp" />
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background"
+                tools:context=".LC" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ImageView02"
+                    android:background="#005daa"
+                    android:gravity="center"
+                    android:text="Mood Check"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView05"
+                    android:layout_marginTop="12dp"
+                    android:background="#ffffff"
+                    android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/Button02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#005daa"
+                    android:text="Next"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/RadioButton28"
+                    android:background="#ffffff"
+                    android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView06"
+                    android:background="#ffffff"
+                    android:text="S Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView07"
+                    android:layout_toRightOf="@+id/RadioButton28"
+                    android:background="#ffffff"
+                    android:text="Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView07"
+                    android:layout_toRightOf="@+id/RadioButton27"
+                    android:background="#ffffff"
+                    android:text="Net"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView07"
+                    android:layout_toRightOf="@+id/RadioButton22"
+                    android:background="#ffffff"
+                    android:text="Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView07"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/RadioButton21"
+                    android:background="#ffffff"
+                    android:text="S Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView07"
+                    android:background="#ffffff"
+                    android:text="S Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextView07"
+                    android:layout_toLeftOf="@+id/RadioButton22"
+                    android:background="#ffffff"
+                    android:text="Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/RadioButton25"
+                    android:layout_alignBottom="@+id/RadioButton25"
+                    android:layout_toLeftOf="@+id/RadioButton21"
+                    android:background="#ffffff"
+                    android:text="Net"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextView07"
+                    android:layout_toLeftOf="@+id/RadioButton19"
+                    android:background="#ffffff"
+                    android:text="Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/RadioButton24"
+                    android:layout_alignBottom="@+id/RadioButton24"
+                    android:layout_alignLeft="@+id/RadioButton19"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:text="S Dis"
+                    android:textSize="10dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background"
+                tools:context=".LC" >
+
+                <ImageView
+                    android:id="@+id/ImageView03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/ImageView03"
+                    android:background="#005daa"
+                    android:gravity="center"
+                    android:text="Mood Check"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22dp" />
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView11"
+                    android:layout_marginTop="12dp"
+                    android:background="#ffffff"
+                    android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                    android:textStyle="italic" />
+
+                <Button
+                    android:id="@+id/Button03"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:background="#005daa"
+                    android:text="Next"
+                    android:textColor="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/RadioButton42"
+                    android:background="#ffffff"
+                    android:text="Q1 Have you been treated foor jaundice or hepatitis"
+                    android:textStyle="italic" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView13"
+                    android:background="#ffffff"
+                    android:text="S Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView12"
+                    android:layout_toRightOf="@+id/RadioButton42"
+                    android:background="#ffffff"
+                    android:text="Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView12"
+                    android:layout_toRightOf="@+id/RadioButton45"
+                    android:background="#ffffff"
+                    android:text="Net"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView12"
+                    android:layout_toRightOf="@+id/RadioButton29"
+                    android:background="#ffffff"
+                    android:text="Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/TextView12"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/RadioButton33"
+                    android:background="#ffffff"
+                    android:text="S Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/TextView12"
+                    android:background="#ffffff"
+                    android:text="S Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextView12"
+                    android:layout_toLeftOf="@+id/RadioButton29"
+                    android:background="#ffffff"
+                    android:text="Agree"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/RadioButton47"
+                    android:layout_alignBottom="@+id/RadioButton47"
+                    android:layout_toLeftOf="@+id/RadioButton33"
+                    android:background="#ffffff"
+                    android:text="Net"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TextView12"
+                    android:layout_toLeftOf="@+id/RadioButton34"
+                    android:background="#ffffff"
+                    android:text="Dis"
+                    android:textSize="10dp" />
+
+                <RadioButton
+                    android:id="@+id/RadioButton46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/RadioButton48"
+                    android:layout_alignBottom="@+id/RadioButton48"
+                    android:layout_alignLeft="@+id/RadioButton34"
+                    android:layout_alignParentRight="true"
+                    android:background="#ffffff"
+                    android:text="S Dis"
+                    android:textSize="10dp" />
+
+                <RelativeLayout
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/background"
+                    tools:context=".LC" >
+
+                    <ImageView
+                        android:id="@+id/ImageView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:id="@+id/TextView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/ImageView04"
+                        android:background="#005daa"
+                        android:gravity="center"
+                        android:text="Mood Check"
+                        android:textColor="#FFFFFF"
+                        android:textSize="22dp" />
+
+                    <TextView
+                        android:id="@+id/TextView09"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView10"
+                        android:layout_marginTop="12dp"
+                        android:background="#ffffff"
+                        android:text="Q1 I discuss my feelings with others."
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/Button04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:background="#005daa"
+                        android:text="Next"
+                        android:textColor="#FFFFFF" />
+
+                    <TextView
+                        android:id="@+id/TextView08"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RadioButton32"
+                        android:background="#ffffff"
+                        android:text="Q2 My work interferes with my personal life"
+                        android:textStyle="italic" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton32"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView09"
+                        android:background="#ffffff"
+                        android:text="S Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView08"
+                        android:layout_toRightOf="@+id/RadioButton32"
+                        android:background="#ffffff"
+                        android:text="Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton39"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView08"
+                        android:layout_toRightOf="@+id/RadioButton30"
+                        android:background="#ffffff"
+                        android:text="Net"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView08"
+                        android:layout_toRightOf="@+id/RadioButton39"
+                        android:background="#ffffff"
+                        android:text="Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView08"
+                        android:layout_alignParentRight="true"
+                        android:layout_toRightOf="@+id/RadioButton36"
+                        android:background="#ffffff"
+                        android:text="S Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView08"
+                        android:background="#ffffff"
+                        android:text="S Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView08"
+                        android:layout_toLeftOf="@+id/RadioButton39"
+                        android:background="#ffffff"
+                        android:text="Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/RadioButton40"
+                        android:layout_alignBottom="@+id/RadioButton40"
+                        android:layout_toLeftOf="@+id/RadioButton36"
+                        android:background="#ffffff"
+                        android:text="Net"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView08"
+                        android:layout_toLeftOf="@+id/RadioButton43"
+                        android:background="#ffffff"
+                        android:text="Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/RadioButton41"
+                        android:layout_alignBottom="@+id/RadioButton41"
+                        android:layout_alignLeft="@+id/RadioButton43"
+                        android:layout_alignParentRight="true"
+                        android:background="#ffffff"
+                        android:text="S Dis"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/TextView16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RadioButton37"
+                        android:background="#ffffff"
+                        android:text="Q3 I work 50 hours a week"
+                        android:textStyle="italic" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView16"
+                        android:background="#ffffff"
+                        android:text="Always"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/TextView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RadioButton49"
+                        android:background="#ffffff"
+                        android:text="Q4 Use ciagrettes or alcohol to get through stressful times"
+                        android:textStyle="italic" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView17"
+                        android:background="#ffffff"
+                        android:text="S Agree"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/TextView18"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/RadioButton50"
+                        android:background="#ffffff"
+                        android:text="Q5 I have difficulty adjusting to change at workor in my personal life."
+                        android:textStyle="italic" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView17"
+                        android:layout_toRightOf="@+id/RadioButton50"
+                        android:background="#ffffff"
+                        android:text="Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView16"
+                        android:layout_toLeftOf="@+id/RadioButton41"
+                        android:background="#ffffff"
+                        android:text="Sometimes"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView18"
+                        android:layout_toLeftOf="@+id/RadioButton41"
+                        android:background="#ffffff"
+                        android:text="Net"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView16"
+                        android:layout_toRightOf="@+id/RadioButton55"
+                        android:background="#ffffff"
+                        android:text="Rarely"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView18"
+                        android:layout_toRightOf="@+id/RadioButton56"
+                        android:background="#ffffff"
+                        android:text="Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TextView18"
+                        android:layout_toLeftOf="@+id/RadioButton31"
+                        android:background="#ffffff"
+                        android:text="Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/TextView16"
+                        android:layout_toRightOf="@+id/RadioButton58"
+                        android:background="#ffffff"
+                        android:text="Never"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_below="@+id/TextView17"
+                        android:layout_toRightOf="@+id/RadioButton59"
+                        android:background="#ffffff"
+                        android:text="S Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/RadioButton60"
+                        android:layout_alignBottom="@+id/RadioButton60"
+                        android:layout_alignLeft="@+id/RadioButton62"
+                        android:layout_alignParentRight="true"
+                        android:background="#ffffff"
+                        android:text="S Dis"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/RadioButton60"
+                        android:layout_alignBottom="@+id/RadioButton60"
+                        android:layout_toLeftOf="@+id/RadioButton57"
+                        android:background="#ffffff"
+                        android:text="Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton51"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@+id/TextView18"
+                        android:background="#ffffff"
+                        android:text="S Agree"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/RadioButton54"
+                        android:layout_alignBottom="@+id/RadioButton54"
+                        android:layout_toRightOf="@+id/RadioButton53"
+                        android:background="#ffffff"
+                        android:text="Net"
+                        android:textSize="10dp" />
+
+                    <RadioButton
+                        android:id="@+id/RadioButton52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/TextView17"
+                        android:layout_toRightOf="@+id/RadioButton49"
+                        android:background="#ffffff"
+                        android:text="Freq"
+                        android:textSize="10dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

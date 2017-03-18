@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SelfCure" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Self Cure"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button02"
+        android:background="#FFFFFF"
+        android:text="Nose Bleeding"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button03"
+        android:background="#FF0000"
+        android:text="Acne"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button04"
+        android:layout_marginTop="51dp"
+        android:background="#FF0000"
+        android:text="Eczema"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button04"
+        android:background="#FFFFFF"
+        android:text="Mouth Ulcers"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button07"
+        android:background="#FF0000"
+        android:text="Sinusitis"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button06"
+        android:background="#FFFFFF"
+        android:text="Gas/Flatulence"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button01"
+        android:layout_alignBottom="@+id/Button01"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/Button01"
+        android:background="#FF0000"
+        android:text="Gastritis"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="27dp"
+        android:background="#FF0000"
+        android:text="Acidity"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toRightOf="@+id/button1"
+        android:background="#FFFFFF"
+        android:text="Intensial Worms"
+        android:textColor="#FF0000" />
+
+</RelativeLayout>

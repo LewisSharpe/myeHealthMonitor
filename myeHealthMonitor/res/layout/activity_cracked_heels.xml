@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CrackedHeels" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#FF00FF"
+        android:gravity="center"
+        android:text="Cracked Heels"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:background="#ffffff"
+        android:text="Treating dry feet usually begins with treating the underlying cause. Some people naturally have dry skin and must constantly take extra steps to ensure that their feet are moisturized at all times. The most common solution for dry feet is a therapeutic oil, ointment, or cream. Most lotions are not recommended for dry feet because they contain alcohol, which can dry the skin further. Baby lotion is usually acceptable since it does not contain chemicals that irritate the skin. Additional treatments may include: Applying lotion to feet after bathing, Using mild moisturizing soaps for skin, Staying hydrated"
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="58dp"
+        android:background="#ffffff"
+        android:text="Talk with your doctor about home remedies. Spearmint, eucalyptus oil, and pumice stones can be used, but only under the guidance of your physician. Treatment for your dry feet may be as simple as treating an underlying medical condition such as thyroid disease. If you are diabetic, you may be more prone to foot problems. Controlling your diabetes can prevent dry skin on your feet."
+        android:textSize="10dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="26dp"
+        android:background="#ffffff"
+        android:text="(Source: http://www.footvitals.com)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

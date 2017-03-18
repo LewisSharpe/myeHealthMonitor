@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            style="@style/ImageButtonWithText"
+            android:layout_weight="1"
+            android:background="#B84A00"
+            android:drawableTop="@drawable/logou"
+            android:onClick="goToTestVitalSigns"
+            android:text="HR/BP/Temp w/Hardcoded Forehead"
+            android:textColor="#FFFFFF" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.77"
+            android:src="@drawable/logo" />
+
+        <Button
+            style="@style/ImageButtonWithText"
+            android:layout_weight="1"
+            android:background="#B84A00"
+            android:drawableTop="@drawable/logoman"
+            android:onClick="goToTestBloodPressure"
+            android:text="HR/BP/Temp w/Face Detection"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+
+	     <Button
+	         style="@style/ImageButtonWithText"
+	         android:layout_weight="1"
+	         android:background="#B84A00"
+	         android:drawableTop="@drawable/logou"
+	         android:onClick="goToTestBodyTemperature"
+	         android:text="[N/A] Auto HR/BP at 5fps"
+	         android:textColor="#FFFFFF" />
+
+	     <Button
+	         style="@style/ImageButtonWithText"
+	         android:layout_weight="1"
+	         android:background="#B84A00"
+	         android:drawableTop="@drawable/logou"
+	         android:onClick="goToTestRespiratoryRate"
+	         android:text="Respiratory Rate"
+	         android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+
+        <Button
+            style="@style/ImageButtonWithText"
+            android:layout_width="wrap_content"
+            android:background="#B84A00"
+            android:drawableTop="@drawable/logou"
+            android:onClick="goToTestFacialGestures"
+            android:text="Locate Facial Features"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            style="@style/ImageButtonWithText"
+            android:layout_weight="1"
+            android:background="#B84A00"
+            android:drawableTop="@drawable/logou"
+            android:onClick="goToTestPupilDilation"
+            android:text="[SIM] Pupils"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+
+        <Button
+            style="@style/ImageButtonWithText"
+            android:layout_weight="1"
+            android:background="#B84A00"
+            android:drawableTop="@drawable/logou"
+            android:onClick="goToTestMultipleFacesDetection"
+            android:text="Detect Multiple Faces"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+    
+</LinearLayout>

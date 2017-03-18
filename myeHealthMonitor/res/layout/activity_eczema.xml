@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Eczema" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Eczema"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:text="Atopic eczema is an inflammation of the skin, which tends to flare-up from time to time. It usually starts in early childhood. The severity can range from mild to severe. There is no cure, but treatment can usually control or ease symptoms. Emollients (moisturisers) and steroid creams or ointments are the common treatments. About 2 in 3 children with atopic eczema grow out of it by their mid teens."
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="24dp"
+        android:background="#ffffff"
+        android:text="Treatment part 1 - avoid irritants and triggers where possible"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="28dp"
+        android:background="#ffffff"
+        android:text="Treatment part 2 - emollients (moisturisers)"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:text="Treatment part 3 - topical steroids (steroid creams and ointments)"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:text="(Source: http://www.patient.co.uk/)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

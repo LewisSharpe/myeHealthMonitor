@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SkinCare" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world" />
+
+    <RelativeLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        tools:context=".CrackedHeels" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView2"
+            android:background="#FF00FF"
+            android:gravity="center"
+            android:text="Skin Care"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="14dp"
+            android:background="#ffffff"
+            android:text="Here are some tips to help prevent skin problem and acne/spots breakouts and clear them up as fast as possible:"
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="27dp"
+            android:background="#ffffff"
+            android:text="Wash your face twice a day (no more) with warm water and a mild soap made for people with acne. Gently massage your face with circular motions. Don&apos;t scrub. Overwashing and scrubbing can cause skin to become irritated. After cleansing, the American Academy of Dermatology (AAD) recommends applying an over-the-counter (no prescription needed) lotion containing benzoyl peroxide."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:layout_marginTop="27dp"
+            android:background="#ffffff"
+            android:text="If you get acne on your body, try not to wear tight clothes. They don&apos;t allow skin to breathe and may cause irritation. Scarves, headbands, and caps can collect dirt and oil, too."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:layout_marginTop="23dp"
+            android:background="#ffffff"
+            android:text="Avoid touching your face with your fingers or leaning your face on objects that collect sebum and skin residue like your phone. Touching your face can spread the bacteria that cause pores to become inflamed and irritated. To keep bacteria at bay, wash your hands before applying anything to your face, such as treatment creams or makeup."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:layout_marginTop="13dp"
+            android:background="#ffffff"
+            android:text="Don&apos;t pop pimples. It&apos;s tempting, but here&apos;s why you shouldn&apos;t: Popping pimples can push infected material further into the skin, leading to more swelling and redness, and even scarring. If you notice a pimple coming before a big event, like the prom, a dermatologist can often treat it for you with less risk of scarring or infection."
+            android:textSize="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:layout_marginTop="17dp"
+            android:background="#ffffff"
+            android:text="(Source: KidsHealth.org)"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

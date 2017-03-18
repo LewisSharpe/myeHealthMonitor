@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Ulcers" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:background="#FF0000"
+        android:gravity="center"
+        android:text="Mouth Ulcers"
+        android:textColor="#FFFFFF"
+        android:textSize="22dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="23dp"
+        android:background="#ffffff"
+        android:text="Self-help tips:  If you have a mild mouth ulcer, there are some steps you can take yourself to help your ulcer heal more quickly: Use a soft toothbrush when brushing your teeth, Avoid hard, sharp, spicy and acidic foods and drinks until the ulcer heals – stick to soft foods that are easier to chew, Avoid things that you think may be triggering your ulcers, such as specific foods. Read about the causes of mouth ulcers for more information about potential triggers and also Reduce your stress levels by doing an activity that you find relaxing, such as yoga, meditation or exercise. Read more about relaxation tips to avoid stress."
+        android:textSize="12dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="19dp"
+        android:background="#ffffff"
+        android:text="If necessary, your GP or dentist can prescribe medication that may help ease your symptoms. Some mouth ulcer treatments can also be bought without a prescription from your local pharmacy, although you should speak to your pharmacist about which medicine may be best for you. Some treatments aren&apos;t suitable for children or for women who are pregnant, breastfeeding or trying to get pregnant."
+        android:textSize="12dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:text="(Source: NHS UK)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="28dp"
+        android:background="#ffffff"
+        android:text="(Source: NHS UK)"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

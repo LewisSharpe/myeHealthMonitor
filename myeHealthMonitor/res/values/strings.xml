@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">myeHealthMonitor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_physical_health">PhysicalHealth</string>
+    <string name="title_activity_mental_health">MentalHealth</string>
+    <string name="title_activity_reg_log_in">RegLogIn</string>
+    <string name="title_activity_advice">Advice</string>
+    <string name="title_activity_user_guide">UserGuide</string>
+    <string name="title_activity_test_oxygen_saturation">TestOxygenSaturation</string>
+    <string name="title_activity_test_respiratory_rate">TestRespiratoryRate</string>
+    <string name="title_activity_rate_app">RateApp</string>
+    <string name="title_activity_test_respiratory">TestRespiratory</string>
+    <string name="title_activity_mood_check">MoodCheck</string>
+    <string name="title_activity_stress_check">StressCheck</string>
+    <string name="title_activity_self_cure">SelfCure</string>
+    <string name="title_activity_seasonal_problems">SeasonalProblems</string>
+    <string name="title_activity_first_aid">FirstAid</string>
+    <string name="title_activity_granny_tips">GrannyTips</string>
+    <string name="title_activity_travel_advice">TravelAdvice</string>
+    <string name="title_activity_test_respiratory_rates">TestRespiratoryRates</string>
+    <string name="title_activity_acidity">Acidity</string>
+    <string name="title_activity_worms">Worms</string>
+    <string name="title_activity_gastritis">Gastritis</string>
+    <string name="title_activity_nose_bleeding">NoseBleeding</string>
+    <string name="title_activity_acne">Acne</string>
+    <string name="title_activity_ulcers">Ulcers</string>
+    <string name="title_activity_eczema">Eczema</string>
+    <string name="title_activity_gas">Gas</string>
+    <string name="title_activity_sinusitis">Sinusitis</string>
+    <string name="title_activity_summer">Summer</string>
+    <string name="title_activity_autumn">Autumn</string>
+    <string name="title_activity_winter">Winter</string>
+    <string name="title_activity_animal_bites">AnimalBites</string>
+    <string name="title_activity_bleeding_gums">BleedingGums</string>
+    <string name="title_activity_heat_stroke">HeatStroke</string>
+    <string name="title_activity_toothache">Toothache</string>
+    <string name="title_activity_cracked_heels">CrackedHeels</string>
+    <string name="title_activity_cold">Cold</string>
+    <string name="title_activity_dandruff">Dandruff</string>
+    <string name="title_activity_healthy_hair">HealthyHair</string>
+    <string name="title_activity_hair_loss">HairLoss</string>
+    <string name="title_activity_skin_care">SkinCare</string>
+    <string name="title_activity_respiratory_rate">RespiratoryRate</string>
+    <string name="title_activity_lc">LC</string>
+    <string name="title_activity_lc1">LC1</string>
+    <string name="title_activity_lc2">LC2</string>
+    <string name="title_activity_sc">SC</string>
+    <string name="title_activity_sc1">SC1</string>
+    <string name="title_activity_sc2">SC2</string>
+    <string name="title_activity_gmhqs">GMHQs</string>
+    <string name="title_activity_glucose">Glucose</string>
+    <string name="title_activity_weight">Weight</string>
+    <string name="title_activity_diet">Diet</string>
+    <string name="title_activity_record">Record</string>
+    <string name="title_activity_recording">Recording</string>
+    <string name="title_activity_sc3">SC3</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_blood_pressure">BloodPressure</string>
+    <string name="title_activity_notifications">Notifications</string>
+
+</resources>

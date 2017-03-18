@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myehealthmonitor"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.myehealthmonitor.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.PhysicalHealth"
+            android:label="@string/title_activity_physical_health" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.MentalHealth"
+            android:label="@string/title_activity_mental_health" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.RegLogIn"
+            android:label="@string/title_activity_reg_log_in" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Advice"
+            android:label="@string/title_activity_advice" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.UserGuide"
+            android:label="@string/title_activity_user_guide" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.TestOxygenSaturation"
+            android:label="@string/title_activity_test_oxygen_saturation" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.TestRespiratoryRate"
+            android:label="@string/title_activity_test_respiratory_rate" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.RateApp"
+            android:label="@string/title_activity_rate_app" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.TestRespiratory"
+            android:label="@string/title_activity_test_respiratory" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.MoodCheck"
+            android:label="@string/title_activity_mood_check" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.StressCheck"
+            android:label="@string/title_activity_stress_check" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SelfCure"
+            android:label="@string/title_activity_self_cure" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SeasonalProblems"
+            android:label="@string/title_activity_seasonal_problems" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.FirstAid"
+            android:label="@string/title_activity_first_aid" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.GrannyTips"
+            android:label="@string/title_activity_granny_tips" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.TravelAdvice"
+            android:label="@string/title_activity_travel_advice" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.TestRespiratoryRates"
+            android:label="@string/title_activity_test_respiratory_rates" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Acidity"
+            android:label="@string/title_activity_acidity" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Worms"
+            android:label="@string/title_activity_worms" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Gastritis"
+            android:label="@string/title_activity_gastritis" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.NoseBleeding"
+            android:label="@string/title_activity_nose_bleeding" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Acne"
+            android:label="@string/title_activity_acne" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Ulcers"
+            android:label="@string/title_activity_ulcers" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Eczema"
+            android:label="@string/title_activity_eczema" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Gas"
+            android:label="@string/title_activity_gas" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Sinusitis"
+            android:label="@string/title_activity_sinusitis" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Summer"
+            android:label="@string/title_activity_summer" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Autumn"
+            android:label="@string/title_activity_autumn" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Winter"
+            android:label="@string/title_activity_winter" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.AnimalBites"
+            android:label="@string/title_activity_animal_bites" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.BleedingGums"
+            android:label="@string/title_activity_bleeding_gums" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.HeatStroke"
+            android:label="@string/title_activity_heat_stroke" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Toothache"
+            android:label="@string/title_activity_toothache" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.CrackedHeels"
+            android:label="@string/title_activity_cracked_heels" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Cold"
+            android:label="@string/title_activity_cold" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Dandruff"
+            android:label="@string/title_activity_dandruff" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.HealthyHair"
+            android:label="@string/title_activity_healthy_hair" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.HairLoss"
+            android:label="@string/title_activity_hair_loss" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SkinCare"
+            android:label="@string/title_activity_skin_care" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.RespiratoryRate"
+            android:label="@string/title_activity_respiratory_rate" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.LC"
+            android:label="@string/title_activity_lc" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.LC1"
+            android:label="@string/title_activity_lc1" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.LC2"
+            android:label="@string/title_activity_lc2" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SC"
+            android:label="@string/title_activity_sc" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SC1"
+            android:label="@string/title_activity_sc1" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SC2"
+            android:label="@string/title_activity_sc2" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.GMHQs"
+            android:label="@string/title_activity_gmhqs" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Glucose"
+            android:label="@string/title_activity_glucose" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Weight"
+            android:label="@string/title_activity_weight" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Diet"
+            android:label="@string/title_activity_diet" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Record"
+            android:label="@string/title_activity_record" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Recording"
+            android:label="@string/title_activity_recording" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.SC3"
+            android:label="@string/title_activity_sc3" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.BloodPressure"
+            android:label="@string/title_activity_blood_pressure" >
+        </activity>
+        <activity
+            android:name="com.example.myehealthmonitor.Notifications"
+            android:label="@string/title_activity_notifications" >
+        </activity>
+    </application>
+
+</manifest>
